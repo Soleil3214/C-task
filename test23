@@ -1,0 +1,6 @@
+Example.exe:	Example1.o	Example2.o
+	c++ -o Example	Example1.o	Example2.o
+hogehoge1.o:	Example1.cpp
+	c++	-c	Example1.cpp
+hogehoge2.o:	Example2.cpp
+	c++	-c	Example2.cpp
